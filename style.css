@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=DM+Sans&family=Inter:wght@200;400&family=Poppins:wght@200;300;400&family=Rubik:ital@1&display=swap');
+
+body {
+    font-family: 'Catamaran', sans-serif;
+    margin: 1rem 10rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70rem;
+
+}
+
+header nav .logo,
+header nav .list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav .logo {
+    font-weight: bold;
+
+}
+
+header nav .list ul {
+    list-style: none;
+
+}
+
+header .list ul li {
+    color: #858788;
+    font-weight: lighter;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .imgHead img {
+    width: 90%;
+}
+main .section .boxTxt{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 70rem;
+ gap: 9rem;
+}
+main .section .boxTxt h1{
+   padding-top: 2rem;
+}
+main .section .boxTxt button{
+    background-color: rgb(10, 1, 26);
+    width: 12rem;
+    height: 3rem;
+    color: aliceblue;
+}
+main  .sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: aliceblue;
+    background-color: rgb(10, 1, 26);   
+    padding: 2rem;
+    
+}
+main  .sideBar hr{
+    border-color: aliceblue;
+    width: 90%;
+    padding-left: 2rem;
+
+}
+main  .sideBar h1:hover{
+    color: orange;
+}
+main  .sideBar p{
+    color: lighter;
+}
+.gropBox, .gropBox .box{
+    display: flex;
+    gap: 3rem;
+  
+}
+.gropBox, .gropBox .box .txt{
+    width: 30%;
+}
